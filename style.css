@@ -1,0 +1,17 @@
+
+header{
+  background-color:rgba(83, 77, 77, 0.46) ;
+  color:white;
+}
+header a {
+  color : wheat;
+}
+
+#logo{
+  background:#84a583;
+  color:black;
+}
+.mybtn{
+  border-radius: 3rem;
+  background: #EA495F;
+}
