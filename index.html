@@ -7,7 +7,7 @@
   <title>Document</title>
   <link rel="stylesheet" href="./bootstrap/bootstrap.min.css">
 </head>
-<body class ="container-fluid">
+<div class="container-fluid">
 
   <header class="row">
     <div class="col">
@@ -91,6 +91,33 @@
           </div>
         
     </section>
-</body>
+
+    <!--FORMULAIRE FAIRE UN DON  -->
+    <sections>
+      <div class="row row-cols-md-2">
+        <div class="col">
+          <form class="bg-lighter">
+            <fieldset disabled>
+              <legend>FAIRE UN DON</legend>
+              <div class="mb-3">
+                <label for="frequence-don-mois" class="form-label btn-info btn">Mensuel</label>
+                  <input type="radio" class="form-label btn-info btn" id="frequence-don-mois">
+                <label for="frequence-don-unique" class="form-label btn btn-info">Une fois</label>
+                  <input type="radio" id="frequence-don-uniques">
+              </div>
+              <div class="mb-3">
+                <label for="montant" class="form-label">MONTANT LIBRE</label>
+                <input type="number" id="montanant" class="form-control" placeholder="10">
+              </div>
+              <div class="mb-3">
+                <button type="submit" class="btn btn-success">JE FAIS UN DON =></button>
+              </div>
+            </fieldset>
+          </form>
+
+        </div>
+      </div>
+    </sections>
+  </main>
 </body>
 </html>
