@@ -31,70 +31,84 @@
     </nav>
   </div>
   <main>
-    <!--UNE "CARD" AVEC UNE IMAGE DE FAMILLE -->
+    <!--A "CARD" WITH FAMILY IMG -->
     <section>
-      <div class="card text-white">
-        <img src="images/famille.jpg" class="card-img" alt="une famille">
-        <div class="card-img-overlay">
-          <h1 class="card-title ">Stop FAIM</h1>
-          <p class="card-text"><p>La pauvrete sous sa forme la plus cruel</p>
+      <div class="row">
+        <div class="col">
+          <div class="card text-white">
+            <img src="images/famille.jpg" class="card-img" alt="une famille">
+            <div class="card-img-overlay">
+              <h1 class="card-title ">Stop FAIM</h1>
+              <p class="card-text"><p>La pauvrete sous sa forme la plus cruel</p>
+            </div>
+          </div> 
         </div>
+
       </div>
+       
 
       <!--BOITES BILAN ET son LOGO-->
-      <div class="row row-cols-1">
-        <div class="col text-center">
-            <h2 class="col">BILAN</h2>
+      <div class="row g-2 bg-primary">
+        <div class="col-12">
+        <div class="col"
+         <div class="row no-gutters justify-content-center">
+            <h2 class="center">BILAN</h2>        <!--ADD STYLE -->
             <svg xmlns="http://www.w3.org/2000/svg" width="44px" height="50px" fill="currentColor" class="bi bi-binoculars svgBilan" viewBox="0 0 16 16">
               <path d="M3 2.5A1.5 1.5 0 0 1 4.5 1h1A1.5 1.5 0 0 1 7 2.5V5h2V2.5A1.5 1.5 0 0 1 10.5 1h1A1.5 1.5 0 0 1 13 2.5v2.382a.5.5 0 0 0 .276.447l.895.447A1.5 1.5 0 0 1 15 7.118V14.5a1.5 1.5 0 0 1-1.5 1.5h-3A1.5 1.5 0 0 1 9 14.5v-3a.5.5 0 0 1 .146-.354l.854-.853V9.5a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5v.793l.854.853A.5.5 0 0 1 7 11.5v3A1.5 1.5 0 0 1 5.5 16h-3A1.5 1.5 0 0 1 1 14.5V7.118a1.5 1.5 0 0 1 .83-1.342l.894-.447A.5.5 0 0 0 3 4.882V2.5zM4.5 2a.5.5 0 0 0-.5.5V3h2v-.5a.5.5 0 0 0-.5-.5h-1zM6 4H4v.882a1.5 1.5 0 0 1-.83 1.342l-.894.447A.5.5 0 0 0 2 7.118V13h4v-1.293l-.854-.853A.5.5 0 0 1 5 10.5v-1A1.5 1.5 0 0 1 6.5 8h3A1.5 1.5 0 0 1 11 9.5v1a.5.5 0 0 1-.146.354l-.854.853V13h4V7.118a.5.5 0 0 0-.276-.447l-.895-.447A1.5 1.5 0 0 1 12 4.882V4h-2v1.5a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5V4zm4-1h2v-.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5V3zm4 11h-4v.5a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5V14zm-8 0H2v.5a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5V14z"/>
             </svg>
           </div>
-      </div>
-
-      <!--3 ARTICLES QUI PARLE DU SUJET DE LASSOCIATION ET DES SES MEMBRES--> 
-    </section>
-    <section>
-      <div class="row row-cols-1 row-cols-lg-4">
-        <div class="col col-lg-4">
-          <article>
-            <h3>Chaque jours 25 000 personnes meurent de la faim et des causes associés</h3>
-            <p>La faim continue de progresser dans le monde avec 3 milliard de personnes ne peut souffrir un regime
-              Le rapport des agences de l’ONU sur la sécurité alimentaire montre que cette tendance à la hausse
-               est encore aggravée par la pandémie due au coronavirus.
-               815 millions de personnes souffrent de malnutrition dans le monde selon le FAO. 
-               En 2015, il y aurait eu 9,1 millions de morts dus à la malnutrition dans le monde (compteur).
-                La malnutrition provoque la mort de <spans>3,1 millions d'enfants de moins de 5 ans chaque année.</spans>
-            </p>
-          </article>
-        </div>
-
-          <div class="col col-lg-4">
-            <article>
-              <h3>Qui souffre le plus de la faim dans le monde ? </h3>
-              <p>La majorité des personnes sous-alimentées vivent sur le continent asiatique (381 millions), 
-                mais c'est en Afrique que la croissance de la faim est la plus rapide : 19,1 % de la population
-                 africaine (250 millions de personnes) en souffrent, 
-                contre 17,6 % en 2014.</p>
-              </article>
+          <section>
+            <div class="row row-cols-1 row-cols-lg-4">
+              <div class="col col-lg-4">
+                <article>
+                  <h3>Chaque jours 25 000 personnes meurent de la faim et des causes associés</h3>
+                  <p>La faim continue de progresser dans le monde avec 3 milliard de personnes ne peut souffrir un regime
+                    Le rapport des agences de l’ONU sur la sécurité alimentaire montre que cette tendance à la hausse
+                     est encore aggravée par la pandémie due au coronavirus.
+                     815 millions de personnes souffrent de malnutrition dans le monde selon le FAO. 
+                     En 2015, il y aurait eu 9,1 millions de morts dus à la malnutrition dans le monde (compteur).
+                      La malnutrition provoque la mort de <span>3,1 millions d'enfants de moins de 5 ans chaque année.</span> <!--ADD A STYLE TO THE SPAN-->
+                  </p>
+                </article>
+              </div>
+      
+                <div class="col col-lg-4">
+                  <article>
+                    <h3>Qui souffre le plus de la faim dans le monde ? </h3>
+                    <p>La majorité des personnes sous-alimentées vivent sur le continent asiatique (381 millions), 
+                      mais c'est en Afrique que la croissance de la faim est la plus rapide : 19,1 % de la population
+                       africaine (250 millions de personnes) en souffrent, 
+                      contre 17,6 % en 2014.</p>
+                    </article>
+                  </div>
+      
+                <div class="col col-lg-4">
+                  <article> 
+                  <h3>Une equipe de plus de 10 000 membres</h3>
+                    <p>Notre association compte 10 0000 hommes et femmes tous volontaires.Cree en 2016 apres qu'une grande vague 
+                    de famine ai frappé de nombreux continant.Petit a petit nous nous sommes aggrandis,pour etre aujourd'hui
+                    au quatre coins de planete pret a apporter notre soutient
+                    </p>
+                    <button class="btn btn-info" type="submit"><a href="#" title="Cliquez ici pour devenir membre">Devenir membres</a></button>
+                  </article>
+                </div>
             </div>
+              
+          </section>
 
-          <div class="col col-lg-4">
-            <article> 
-            <h3>Une equipe de plus de 10 000 membres</h3>
-              <p>Notre association compte 10 0000 hommes et femmes tous volontaires.Cree en 2016 apres qu'une grande vague 
-              de famine ai frappé de nombreux continant.Petit a petit nous nous sommes aggrandis,pour etre aujourd'hui
-              au quatre coins de planete pret a apporter notre soutient
-              </p>
-              <button class="btn btn-info" type="submit"><a href="#" title="Cliquez ici pour devenir membre">Devenir membres</a></button>
-            </article>
-          </div>
-        
+
+
+
+      </div>
     </section>
 
-    <!--FORMULAIRE FAIRE UN DON  -->
-    <sections>
-      <div class="row row-cols-md-2">
-        <div class="col">
+      <!--3 ARTICLES --> 
+   
+
+    <!--FORMULAR DONATION  -->
+  <div class="row row-cols-lg-3 justify-content-center">
+    <article>
+        <div class="col col-lg-1">
           <form class="bg-lighter">
             <fieldset disabled>
               <legend>FAIRE UN DON</legend>
@@ -109,14 +123,31 @@
                 <input type="number" id="montanant" class="form-control" placeholder="10">
               </div>
               <div class="mb-3">
-                <button type="submit" class="btn btn-success">JE FAIS UN DON =></button>
+                <button type="submit" class="btn btn-success">JE FAIS UN DON =></button> <!--ADD A LOGO AND TARGET A FORMULAR-->
               </div>
             </fieldset>
           </form>
-
         </div>
-      </div>
-    </sections>
+    </article>
+
+    <section class="row">
+      <article>
+          <div class="col col-lg-2">
+            <div class="card" style="width: 18rem;">
+              <img src="images/tuyau.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+
+          </div> 
+  </div>
+      </article>
+
+
+
+    </section> 
+
 
 
   </main>
