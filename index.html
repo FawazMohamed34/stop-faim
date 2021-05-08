@@ -8,7 +8,7 @@
                                 <!--Only css-->
   <link rel="stylesheet" href="./bootstrap/bootstrap.min.css">
 </head>
-<div class="container-fluid">
+<body class="container-fluid">
   <header class="row h-100 bg-info">
     <div class="col">
     <nav class="navbar navbar-expand-lg ps-2">
@@ -33,33 +33,26 @@
   </div>
   <main>
                                    <!--Carroussel -->
-    <section class="myCarousel">
-      <div class="row">
-        <div class="col">
-          <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="images/famille.jpg" class="d-block img-fluid mx-auto" alt="...">
-              </div>
-              <div class="carousel-item">
-                <img src="images/tuyau.jpg" class="d-block img-fluid mx-auto" alt="...">
-              </div>
-              <div class="carousel-item">
-                <img src="images/distribution.jpg" class="d-block img-fluid mx-auto" alt="...">
+    
+        <div class="row w-100 my">
+          <div class="col-12">
+            <div class="card bg-dark text-white">
+              <img src="images/famille.jpg" class="card-img" alt="...">
+              <div class="card-img-overlay">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <p class="card-text">Last updated 3 mins ago</p>
               </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
+            </div>
           </div>
-       </div>
-      </div>
-    </section>
+        </div>
+
+
+
+
+          </div>
+          
        
       <hr>
                                 <!--BOITES BILAN ET son LOGO-->
@@ -71,7 +64,7 @@
                 <p>Pendant ce temps</p>
                 </div>
                                    <!--3 articles-->
-                <div class="col-12 col-lg-4">
+                <div class="col-12 col-lg-4 bg-danger p-2">
                   <article class="text-justify">
                     <h3>Chaque jours 25 000 personnes meurent de la faim et des causes associés</h3>
                     <p>La faim continue de progresser dans le monde avec 3 milliard de personnes ne peut souffrir un regime
@@ -81,20 +74,20 @@
                   </article>
                 </div>
         
-                  <div class="col-12 col-lg-4">
+                  <div class="col-12 col-lg-4 bg-danger p-4 text-center">
                     <article>
-                      <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="currentColor" class="bi bi-graph-up" viewBox="0 0 16 16">
-                        <path fill-rule="evenodd" d="M0 0h1v15h15v1H0V0zm10 3.5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-1 0V4.9l-3.613 4.417a.5.5 0 0 1-.74.037L7.06 6.767l-3.656 5.027a.5.5 0 0 1-.808-.588l4-5.5a.5.5 0 0 1 .758-.06l2.609 2.61L13.445 4H10.5a.5.5 0 0 1-.5-.5z"/>
-                      </svg>
                       <h3>Qui souffre le plus de la faim dans le monde ? </h3>
-                      <p>La majorité des personnes sous-alimentées vivent sur le continent asiatique (381 millions), 
-                        mais c'est en Afrique que la croissance de la faim est la plus rapide : 19% de la population 
-                        africaines (250 millions de personnes )en souffrent, 
-                        contre 17,6 % en 2014.</p>
-                      </article>
-                    </div>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="currentColor" class="bi bi-graph-up" viewBox="0 0 16 16">
+                          <path fill-rule="evenodd" d="M0 0h1v15h15v1H0V0zm10 3.5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-1 0V4.9l-3.613 4.417a.5.5 0 0 1-.74.037L7.06 6.767l-3.656 5.027a.5.5 0 0 1-.808-.588l4-5.5a.5.5 0 0 1 .758-.06l2.609 2.61L13.445 4H10.5a.5.5 0 0 1-.5-.5z"/>
+                        </svg>
+                        <p>La majorité des personnes sous-alimentées vivent sur le continent asiatique (381 millions), 
+                          mais c'est en Afrique que la croissance de la faim est la plus rapide : 19% de la population 
+                          africaines (250 millions de personnes )en souffrent, 
+                          contre 17,6 % en 2014.</p>
+                    </article>
+                  </div>
 
-                    <div class="col-12 col-lg-4">
+                    <div class="col-12 col-lg-4 bg-danger p-4">
                     <article> 
                       <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
                       <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
