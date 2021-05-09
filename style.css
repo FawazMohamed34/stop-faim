@@ -1,5 +1,12 @@
-.my{
+.mybox-bg{
   background: url(images/mange.jpg) no-repeat center center;
   background-size: cover;
   height: 450px;
+}
+input #montant{
+  width: 1.8rem;
+}
+.myCard:hover{
+  transform: scale(1.1);
+  margin-bottom: 60px;
 }
