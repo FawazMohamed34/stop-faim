@@ -1,10 +1,30 @@
-.mybox-bg{
-  background: url(images/manger.jpg) no-repeat center;
+
+header{
+  background-color:rgba(83, 77, 77, 0.56) ;
+}
+ #logo{
+    background:#84a583;
+    color:black;
+ }
+ main{
+    background:#84a583;
+ }
+.parralax{
+  background: url(images/manger.jpg) no-repeat center center;
   background-size: cover;
   background-attachment: fixed;
-  height: 500px;
+  height: 600px;
   padding: 0;
   margin: 0;
+}
+.h1-color{
+    color:#99B998;
+}
+
+.mybtn{
+  border-radius: 3rem;
+  background: #EA495F;
+
 }
 input #montant{
   width: 1.8rem;
@@ -14,14 +34,14 @@ input #montant{
 }
 
 .myCard:hover{
-    transform: scale(1.1);
+    transform: scale(1.2);
 
 }
-.mybtn{
-  border-radius: 3rem;
-}
-body{
 
-width: 100%;
-height: 100%;
+
+.bg-h3{
+  background-color: #FDCEA9;
+  height: 250px;
+  color:#365335;
+
 }
