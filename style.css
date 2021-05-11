@@ -39,8 +39,9 @@ input #montant{
     transform: scale(1.1);
 
 }
-
-
+h4{
+  color: #FDCEA9;;
+}
 .bg-h3{
   background-color: #FDCEA9;
   height: 250px;
